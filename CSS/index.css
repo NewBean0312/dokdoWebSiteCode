@@ -1,9 +1,3 @@
-.slider_section {
-  order: 2;
-  width: 50%;
-  background: #3c90be;
-}
-
 .gallery_section {
   order: 3;
   width: 27.083333333333333333333333333333%;
@@ -153,17 +147,51 @@
 }
 
 .menu_toggle_btn {
-    display: block;
-    width: 30px;
-    width: 1.875rem;
-    height: 30px;
-    height: 1.875rem;
-    position: absolute;
-    top: 10px;
-    top: 0.625rem;
-    text-indent: -9999px;
-    background: url(../images/s_images/menu_toggle_btn.png) no-repeat;
-    cursor: pointer;
+  display: block;
+  width: 30px;
+  width: 1.875rem;
+  height: 30px;
+  height: 1.875rem;
+  position: absolute;
+  top: 10px;
+  top: 0.625rem;
+  text-indent: -9999px;
+  background: url(../images/s_images/menu_toggle_btn.png) no-repeat;
+  cursor: pointer;
+}
+
+/* 슬라이더 영역 CSS */
+.slider_section {
+  display: flex;
+  justify-content: space-between;
+  order: 3;
+  width: 100%;
+  height: 300px;
+  height: 18.75rem;
+  background: url(../images/p_images/slider_01.jpg) center center no-repeat;
+  cursor: pointer;
+}
+
+.slider_section span {
+  width: 34px;
+  width: 2.125rem;
+  height: 39px;
+  height: 2.438rem;
+  text-indent: -9999px;
+  background: url(../images/s_images/slider_arrow.png) no-repeat;
+  cursor: pointer;
+}
+
+span.prev_btn {
+  margin-left: -10px;
+  margin-left: -0.625rem;
+  background-position: 0 0;
+}
+
+span.next_btn {
+  margin-left: -10px;
+  margin-left: -0.625rem;
+  background-position: -34px 0;
 }
 
 /* 태블릿용 CSS */
@@ -207,14 +235,25 @@
     width: 40.104166%; /* 308px ÷ 768px */
   }
 
-  .menu_toggle_btn{
-top:50%;
-right:30px;
-right:1.875rem;
-z-index:20;
-margin-top:-15px;
-margin-top:-0.938rem;
-}
+  .menu_toggle_btn {
+    top: 50%;
+    right: 30px;
+    right: 1.875rem;
+    z-index: 20;
+    margin-top: -15px;
+    margin-top: -0.938rem;
+  }
+
+  /* 슬라이더 영역 CSS */
+  .slider_section {
+    width: 59.895833%; /* 460px ÷ 768px */
+    height: auto;
+  }
+
+  .slider_section span {
+    position: relative;
+    z-index: 10;
+  }
 }
 
 /* PC용 CSS */
@@ -223,7 +262,7 @@ margin-top:-0.938rem;
     position: relative;
     width: 90%;
   }
-  
+
   /* 인포메이션 영역 CSS */
   .info_section {
     order: 0;
@@ -276,7 +315,7 @@ margin-top:-0.938rem;
 
   .gnb li {
     display: block;
-    margin-left: 5.208333%; /* 50px ÷ 840px */
+    margin-left: 5.208333%;  /* 50px ÷ 840px */
     background: none;
   }
 
@@ -292,5 +331,11 @@ margin-top:-0.938rem;
 
   .menu_toggle_btn {
     display: none;
+  }
+
+  /* 슬라이더 영역 CSS */
+  .slider_section {
+    order: 2;
+    width: 50%;  /* 480px ÷ 960px */
   }
 }
