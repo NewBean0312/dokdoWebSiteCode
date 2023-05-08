@@ -227,6 +227,38 @@ span.next_btn {
   margin-top: 0;
 }
 
+/* 갤러리 영역 CSS */
+.gallery_section{
+  order:6;
+  padding:50px 12.5%;
+  padding:3.125rem 12.5%;
+  /* 40px ÷ 320px */
+  text-align:center;
+  background:#e65d5d;
+  text-shadow:0px 1px 1px #c43434;
+  }
+  
+  .gallery_section img{
+  width:100%;
+  max-width:100%;
+  border-radius:3px;
+  box-shadow:0px 1px 1px #c43434;
+  }
+  
+  .gallery_list li:nth-child(2){
+  margin-top:30px;
+  margin-top:1.875rem;
+  }
+  
+  .gallery_list li figcaption{
+  margin-top:20px;
+  margin-top:1.250rem;
+  font-size:1.188em;
+  font-size:1.188rem;
+  text-transform:uppercase;
+  font-weight:bold;
+  }
+
 /* 태블릿용 CSS */
 @media all and (min-width: 768px) {
   #wrap {
@@ -302,6 +334,27 @@ span.next_btn {
     width: 41.666666%; /* 320px ÷ 768px */
     padding-left: 5.208333%;
     padding-left: 5.208333%;
+  }
+
+  /* 갤러리 영역 CSS */
+  .gallery_section {
+    order: 8;
+    width: 71.354166%; /* 548px ÷ 768px */
+    padding-left: 5.208333%;
+    padding-right: 5.208333%; /* 220px ÷ 468px */
+  }
+
+  .gallery_list {
+    display: flex;
+  }
+
+  .gallery_list li {
+    width: 47.008547%; /* 220px ÷ 468px */
+  }
+
+  .gallery_list li:nth-child(2) {
+    margin-left: 5.982905%; /* 28px ÷ 468px */
+    margin-top: 0;
   }
 }
 
@@ -389,12 +442,33 @@ span.next_btn {
   }
 
   /* 최근 글 영역, 인기 글 영역 CSS */
-  .latest_post_section, .popular_post_section {
+  .latest_post_section,
+  .popular_post_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30%; /* 288px ÷ 960px */
     padding-left: 0;
     padding-right: 0;
+  }
+
+  /* 갤러리 영역 CSS */
+  .gallery_section {
+    order: 3;
+    width: 27.083333%; /* 260px ÷ 960px */
+  }
+
+  .gallery_list {
+    display: block;
+  }
+
+  .gallery_list li {
+    width: auto;
+  }
+
+  .gallery_list li:nth-child(2) {
+    margin-top: 30px;
+    margin-top: 1.875rem;
+    margin-left: 0;
   }
 }
