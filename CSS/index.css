@@ -298,6 +298,25 @@ span.next_btn {
   justify-content: space-between;
 }
 
+/* 푸터 영역 CSS */
+.footer {
+  order: 10;
+  width: 100%;
+  background-color: #474747;
+}
+
+.footer p {
+  padding: 20px;
+  padding: 1.250rem;
+  font-size: 0.813em;
+  font-size: 0.813rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 1px 1px #191919;
+}
+
 /* 태블릿용 CSS */
 @media all and (min-width: 768px) {
   #wrap {
