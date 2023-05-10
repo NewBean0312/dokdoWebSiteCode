@@ -481,6 +481,12 @@ span.next_btn {
     margin: 24px 0;
     margin: 1.500rem 0;
   }
+
+  /* 푸터 영역 CSS */
+  .footer p {
+    padding: 40px 0;
+    padding: 2.500rem 0;
+  }
 }
 
 /* PC용 CSS */
@@ -648,5 +654,15 @@ span.next_btn {
   .social_section {
     order: 8;
     width: 17.083333%; /* 164px ÷ 960px */
+  }
+
+  /* 푸터 영역 CSS */
+  .footer {
+    order: 9;
+  }
+
+  .footer p {
+    padding-left: 3.125%; /* 30px ÷ 960px */
+    text-align: left;
   }
 }
