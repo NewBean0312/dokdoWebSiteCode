@@ -14,48 +14,138 @@
 
 /* 서브 헤더 영역 CSS */
 .sub_header_section {
-    order: 3;
-    padding: 48px 0;
-    padding: 3.000rem 0;
-    text-align: center;
-    background-color: #219af7;
+  order: 3;
+  padding: 48px 0;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #219af7;
 }
 
 .sub_header_section h2 {
-    margin-bottom: 12px;
-    margin-bottom: 0.750rem;
-    font-size: 1.313em;
-    font-size: 1.313rem;
-    color: #fff;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  font-size: 1.313em;
+  font-size: 1.313rem;
+  color: #fff;
 }
 
 .breadcrum_list li {
-    display: inline;
-    font-size: 0.813em;
-    font-size: 0.813rem;
-    font-weight: bold;
+  display: inline;
+  font-size: 0.813em;
+  font-size: 0.813rem;
+  font-weight: bold;
 }
 
 /* 콘텐츠 영역 CSS */
 .content_section {
-    order: 4;
-    padding: 20px;
-    padding: 1.250rem;
-    background-color: #fff;
+  order: 4;
+  padding: 20px;
+  padding: 1.25rem;
+  background-color: #fff;
+}
+
+.content_section > div {
+  margin-top: 60px;
+  margin-top: 3.75rem;
+}
+
+.content_section > div:first-child {
+  margin-top: 0;
+}
+
+.content_row_1 {
+  text-align: center;
+}
+
+.content_row_1 img {
+  max-width: 100%;
+}
+
+.content_row_1 h3 {
+  margin: 26px 0 14px 0;
+  margin: 1.625rem 0 0.875rem 0;
+  font-size: 1.626em;
+  font-size: 1.626rem;
+  color: #333;
+}
+
+.content_row_1 p {
+  font-size: 0.938em;
+  font-size: 0.938rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  color: #444;
+}
+
+.content_row_2 > article {
+  margin-top: 40px;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.content_row_2 > article:first-child {
+  margin-top: 0;
+}
+
+.content_row_2 img {
+  max-width: 100%;
+}
+
+.content_row_2 h4 {
+  margin: 26px 0 14px 0;
+  margin: 1.625rem 0 0.875rem 0;
+  font-size: 1.188em;
+  font-size: 1.188rem;
+  color: #333;
+}
+
+.content_row_2 p {
+  font-size: 0.813em;
+  font-size: 0.813rem;
+  line-height: 21px;
+  line-height: 1.313rem;
+  color: #444;
+}
+
+.content_row_3 h4 {
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
+  font-size: 1.188em;
+  font-size: 1.188rem;
+  border-bottom: 3px solid #2ecc71;
+}
+
+.para p:first-child {
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
+}
+.para p {
+  font-size: 0.813em;
+  font-size: 0.813rem;
+  line-height: 21px;
+  line-height: 1.313rem;
+  color: #444;
 }
 
 /* 푸터 영역 CSS */
 .footer {
-    order: 5;
+  order: 5;
 }
 
 /* 태블릿용 CSS */
 @media all and (min-width: 768px) {
-    /* 콘텐츠 영역 CSS */
-    .content_section {
-        padding: 40px;
-        padding: 2.500rem;
-    }
+  /* 콘텐츠 영역 CSS */
+  .content_section {
+    padding: 40px;
+    padding: 2.5rem;
+  }
+
+  .content_section > div {
+    margin-top: 120px;
+    margin-top: 7.5rem;
+  }
 }
 
 /* PC용 CSS */
@@ -74,7 +164,27 @@
   .content_section {
     order: 3;
     padding: 60px;
-    padding: 3.750rem;
+    padding: 3.75rem;
+  }
+
+  .content_row_2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content_row_2 article {
+    width: 30%; /* 400px ÷ 840px */
+    margin: 0;
+  }
+
+  .para {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .para p {
+    width: 47.619048%; /* 400px ÷ 840px */
+    margin: 0;
   }
 
   /* 푸터 영역 CSS */
