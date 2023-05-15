@@ -135,8 +135,8 @@ span.prev_btn {
 }
 
 span.next_btn {
-  margin-left: -10px;
-  margin-left: -0.625rem;
+  margin-right: -10px;
+  margin-right: -0.625rem;
   background-position: -34px 0;
 }
 
