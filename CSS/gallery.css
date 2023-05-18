@@ -16,8 +16,8 @@
 .info_section {
   order: 1;
   width: 100%;
-  background-color: #2ecc71;
-  border-bottom: 1px solid #39d67c;
+  background-color: #05b3b9;
+  border-bottom: 1px solid #089fa4;
 }
 
 .info_list {
@@ -55,7 +55,7 @@
   line-height: 1.313rem;
   text-align: center;
   text-transform: uppercase;
-  background-color: #2ecc71;
+  background-color: #00A6AC;
   text-shadow: 0px 1px 1px #25ab5e;
 }
 
@@ -115,7 +115,7 @@
   padding: 48px 0;
   padding: 3rem 0;
   text-align: center;
-  background-color: #219af7;
+  background-color: #237152;
 }
 
 .sub_header_section h2 {
@@ -219,13 +219,13 @@
 .content_row_3 span.list_prev_btn {
   margin-right: 10px;
   margin-right: 0.625rem;
-  background: #2ecc71 url(../images/s_images/list_prev_btn.png) center center no-repeat;
+  background: #237152 url(../images/s_images/list_prev_btn.png) center center no-repeat;
 }
 
 .content_row_3 span.list_next_btn {
   margin-left: 10px;
   margin-left: 0.625rem;
-  background: #2ecc71 url(../images/s_images/list_next_btn.png) center center no-repeat;
+  background: #237152 url(../images/s_images/list_next_btn.png) center center no-repeat;
 }
 
 .content_row_3 a {
@@ -236,8 +236,8 @@
   line-height: 26px;
   line-height: 1.625rem;
   text-align: center;
-  border: 1px solid #219af7;
-  color: #219af7;
+  border: 1px solid #237152;
+  color: #237152;
   transition: all 0.2s;
 }
 
@@ -248,7 +248,7 @@
 
 .content_row_3 a:hover {
   color: #fff;
-  background-color: #219af7;
+  background-color: #237152;
 }
 
 /* 푸터 영역 CSS */
@@ -297,7 +297,7 @@
     position: relative;
     min-height: 80px;
     min-height: 5rem;
-    background: #2ecc71;
+    background: #00A6AC;
   }
 
   .gnb {
