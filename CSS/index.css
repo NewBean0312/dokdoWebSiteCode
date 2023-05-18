@@ -16,8 +16,8 @@
 .info_section {
   order: 1;
   width: 100%;
-  background-color: #2ecc71;
-  border-bottom: 1px solid #39d67c;
+  background-color: #0bc9d0;
+  border-bottom: 1px solid #089fa4;
 }
 
 .info_list {
@@ -55,7 +55,7 @@
   line-height: 1.313rem;
   text-align: center;
   text-transform: uppercase;
-  background-color: #2ecc71;
+  background-color: #00A6AC;
   text-shadow: 0px 1px 1px #25ab5e;
 }
 
@@ -196,15 +196,15 @@ span.next_btn {
   padding: 3.125rem 12.5%;
   /* 40px ÷ 320px */
   text-align: center;
-  background: #e65d5d;
-  text-shadow: 0px 1px 1px #c43434;
+  background: #237152;
+  text-shadow: 0px 1px 1px #164432;
 }
 
 .gallery_section img {
   width: 100%;
   max-width: 100%;
   border-radius: 3px;
-  box-shadow: 0px 1px 1px #c43434;
+  box-shadow: 0px 1px 1px #164432;
 }
 
 .gallery_list li:nth-child(2) {
@@ -226,7 +226,7 @@ span.next_btn {
   order: 7;
   padding: 40px 12.5%;
   padding: 2.5rem 12.5%; /* 40px ÷ 320px */
-  background-color: #219af7;
+  background-color: #53CE9E;
   text-shadow: 0px 1px 1px #1974ba;
 }
 
@@ -347,7 +347,7 @@ span.next_btn {
     position: relative;
     min-height: 80px;
     min-height: 5rem;
-    background-color: #2ecc71;
+    background-color: #00A6AC;
   }
 
   .gnb {
